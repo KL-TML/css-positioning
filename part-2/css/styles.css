@@ -27,3 +27,50 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+img {
+    float:  left;
+    width: 105%;
+}
+
+.film-details {
+    float: right;
+    width: 30%
+}
+
+/*Positioning the border around each movie list*/
+article.film{
+  border: 1px solid grey;
+  padding: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+/*Positioning all of the individual movie posters*/
+figure.film-poster{
+  width: 30%;
+  float: left;
+  margin-right: 1em;
+  position: relative;
+}
+
+/*Positioning the Movie Titles for all of the films*/
+h1.film-title{
+  margin-top: 0;
+}
+
+/*positioning of the watch later clock symbol*/
+.action-watch-later{
+  position: absolute;
+  bottom: 85%;
+  left: 80%;
+  color: red;
+}
+
+/*Positioning the Fav-bookmark-star buttons*/
+.action-like{
+  color: rgb(252,50,28);
+  position: absolute;
+  bottom: 11px;
+  right: 8px;
+}
